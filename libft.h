@@ -6,7 +6,7 @@
 /*   By: hboudhir <hboudhir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/15 18:41:03 by hboudhir          #+#    #+#             */
-/*   Updated: 2019/11/29 16:16:28 by hboudhir         ###   ########.fr       */
+/*   Updated: 2019/11/30 22:53:46 by hboudhir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@
 typedef	struct	s_list
 {
 	void			*content;
-	struct node		*next;
+	struct s_list		*next;
 }				t_list;
 
 char			*ft_strnstr(const char *hay, const char *need, size_t len);
